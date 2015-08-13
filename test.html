@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=koi-8">
+<META http-equiv="Content-Language" content="koi-8">
+</HEAD>
+<BODY>
+<script type='text/javascript'>
+  window.onload=function(){
+	str = 'http://price.nadavi.com.ua/p4g_i.php?p4g_type_=1&p4g_id_=160&p4g_partner_=0&p4g_name_=Samsung+LE-26R72B&p4g_id_site_=8&p4g_type_out_=text&user_ip_=82.144.200.110';
+	str = 'test2.xml';
+	var loader=new net.ContentLoader(str, process, '', 'POST', '', 'text/html; charset=windows-1251');
+	//var loader=new net.ContentLoader(str, process);
+  }
+
+  function process(){
+	// alert(document.getElemenById('test').innerHTML);
+	 container = document.getElementById("test");
+	 container.innerHTML += this.req.responseText;
+	//container = document.createElement('container');
+  }
+
+  function loadElement(){
+	str = 'http://price.nadavi.com.ua/p4g_i.php?p4g_type_=1&p4g_id_=160&p4g_partner_=0&p4g_name_=Samsung+LE-26R72B&p4g_id_site_=8&p4g_type_out_=text&user_ip_=82.144.200.110';
+	str = 'test.xml';
+	var loader2=new net.ContentLoader(str, process);
+  }
+
+</script>
+<script type='text/javascript' src='ContentLoader.js'></script>
+TEST
+<DIV id='test'></DIV>
+<DIV onClick='loadElement()'>Click me</DIV>
+</BODY>
+</HTML>

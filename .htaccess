@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www.podberi.tv$
+RewriteRule ^ http://www.podberi.tv%{REQUEST_URI} [R=301,L]
+
+    ErrorDocument 500 /wizard.php
+    ErrorDocument 404 /wizard.php
+    ErrorDocument 401 /wizard.php
+    ErrorDocument 403 /wizard.php
+
+DirectoryIndex index.php
+
+
+
+

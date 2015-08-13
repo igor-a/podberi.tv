@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Тестовая страница партнерских блоков</title>
+
+<style>
+	BODY{text-align:center;
+	padding:40px 0;}
+	.global{
+		text-align:left;
+		padding:60px 20px;
+		margin:0 auto;
+		border:1px solid #ccc;
+		width:700px;
+		font-family:tahoma;
+		background:url(img/grad.gif) repeat-x top left;
+	}
+	.global a{color:#255381;}
+	.global UL A{font-size:90%;}
+	.global UL li{margin:5px 0;}
+</style>
+</head>
+
+
+<body>
+	<div class="global">
+		Протестируйте пожалуйста контент на ссылках, расположенных ниже:
+		<ul>
+			<li><a href="http://mobile.optima.ua/phones.php?model_id=1002" target="_blank">Исходная страница - блок не показывается при переходе по ссылке</a></li>
+			<li><a href="http://www.podberi.tv/skorney_no_change.htm" target="_blank">Та же страница, только сохраненная на другом хосте - блок с показывается</a></li>
+			<li><a href="http://www.podberi.tv/skorney_modif.htm" target="_blank">Та же страница, только загружаемый внешний файл помещен на страницу - блок с показывается</a></li>
+			<li><a href="http://www.podberi.tv/skorney_upd_func.htm" target="_blank">Скрипт в <head> - вызов за блоком - блок с показывается</a></li>
+			<li><a href="http://www.podberi.tv/skorney_upd_more.htm" target="_blank">Скрипт в <head> - с явным контролем загрузки блока - блок с показывается</a></li>
+		</ul>
+	</div>
+</body>
+</html>
