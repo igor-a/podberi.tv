@@ -1,5 +1,5 @@
 <?
-
+/* Список категории */
 
 function printMainPart(){
 
