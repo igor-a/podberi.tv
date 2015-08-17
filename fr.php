@@ -1,4 +1,5 @@
 <?
+	?>Кирилица<?
     /* Фрейм */
 	header("Content-type: text/html; charset=windows-1251");
 	/* ?><script language='javascript' type='text/javascript'>document.write(navigator.appName);</script><? */
