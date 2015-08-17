@@ -1,5 +1,5 @@
 <?
-
+/* Вывод статей */
 function print_article($article_arr) {
 
 	?><!-- Контент --><?
