@@ -1,5 +1,6 @@
 <?
 
+// Index. Local.
 
 function printMainPart(){
 
