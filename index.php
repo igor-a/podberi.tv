@@ -1,16 +1,16 @@
 <?
 
-
+// global
 function printMainPart(){
 
 	?><div style="width: 90%;" class="tpd"><?
 	?><table width="100%" border="0" cellspacing="0" cellpadding="0"><?
 
-		?><!-- Первая строка с двумя разделами --><?
+		?><!-- ГЏГҐГ°ГўГ Гї Г±ГІГ°Г®ГЄГ  Г± Г¤ГўГіГ¬Гї Г°Г Г§Г¤ГҐГ«Г Г¬ГЁ --><?
 		?><tr valign="top"><?
 			?><?=main_page_print_category_block('lcd')?><?
 
-			?><!-- Распорка --><?
+			?><!-- ГђГ Г±ГЇГ®Г°ГЄГ  --><?
 			?><td><div style="width:35px;"><spacer width="1" height=1></div></td><?
 
 			?><?=main_page_print_category_block('plazmennye')?><?
@@ -18,11 +18,11 @@ function printMainPart(){
 
 		?><tr><td colspan="3" height="20"></td></tr><?
 
-        ?><!-- вторая строка с двумя разделами --><?
+        ?><!-- ГўГІГ®Г°Г Гї Г±ГІГ°Г®ГЄГ  Г± Г¤ГўГіГ¬Гї Г°Г Г§Г¤ГҐГ«Г Г¬ГЁ --><?
 		?><tr valign="top"><?
 			?><?=main_page_print_category_block('monitors')?><?
 
-			?><!-- Распорка --><?
+			?><!-- ГђГ Г±ГЇГ®Г°ГЄГ  --><?
 			?><td><div style="width:35px;"><spacer width="1" height=1></div></td><?
 
 			?><?=main_page_print_category_block('elt')?><?
@@ -33,11 +33,11 @@ function printMainPart(){
 		//if (UserIP == '82.144.200.110') {
 		//if (is_nadavi_office_ip()) {
 
-			?><!-- третья строка с двумя разделами --><?
+			?><!-- ГІГ°ГҐГІГјГї Г±ГІГ°Г®ГЄГ  Г± Г¤ГўГіГ¬Гї Г°Г Г§Г¤ГҐГ«Г Г¬ГЁ --><?
 			?><tr valign="top"><?
 				?><?=main_page_print_category_block('projector')?><?
 
-                ?><!-- Распорка --><?
+                ?><!-- ГђГ Г±ГЇГ®Г°ГЄГ  --><?
                 ?><td><div style="width:35px;"><spacer width="1" height=1></div></td><?
 
 				?><?=main_page_print_category_block('dvd')?><?
@@ -45,11 +45,11 @@ function printMainPart(){
 
 			?><tr><td colspan="3" height="20"></td></tr><?
 
-			?><!-- четвертая строка с двумя разделами --><?
+			?><!-- Г·ГҐГІГўГҐГ°ГІГ Гї Г±ГІГ°Г®ГЄГ  Г± Г¤ГўГіГ¬Гї Г°Г Г§Г¤ГҐГ«Г Г¬ГЁ --><?
 			?><tr valign="top"><?
 				?><?=main_page_print_category_block('homecinema')?><?
 
-				?><!-- Распорка --><?
+				?><!-- ГђГ Г±ГЇГ®Г°ГЄГ  --><?
 				?><td><div style="width:35px;"><spacer width="1" height=1></div></td><?
 
 				?><?=main_page_print_category_block('pristavki')?><?
@@ -66,9 +66,9 @@ function printMainPart(){
 }
 
 function getRequirements() {
-	define('Title','LCD телевизоры, проекционные и плазменные панели - описания, характеристики, цены');
-	define('Description','Все про телевизоры - статьи, описания, характеристики, цены в интернет-магазинах России и Украины');
-	define('Keywords','lcd телевизоры проекционные плазменные элт описания цены россия украина киев москва');
+	define('Title','LCD ГІГҐГ«ГҐГўГЁГ§Г®Г°Г», ГЇГ°Г®ГҐГЄГ¶ГЁГ®Г­Г­Г»ГҐ ГЁ ГЇГ«Г Г§Г¬ГҐГ­Г­Г»ГҐ ГЇГ Г­ГҐГ«ГЁ - Г®ГЇГЁГ±Г Г­ГЁГї, ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГЁ, Г¶ГҐГ­Г»');
+	define('Description','Г‚Г±ГҐ ГЇГ°Г® ГІГҐГ«ГҐГўГЁГ§Г®Г°Г» - Г±ГІГ ГІГјГЁ, Г®ГЇГЁГ±Г Г­ГЁГї, ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГЁ, Г¶ГҐГ­Г» Гў ГЁГ­ГІГҐГ°Г­ГҐГІ-Г¬Г ГЈГ Г§ГЁГ­Г Гµ ГђГ®Г±Г±ГЁГЁ ГЁ Г“ГЄГ°Г ГЁГ­Г»');
+	define('Keywords','lcd ГІГҐГ«ГҐГўГЁГ§Г®Г°Г» ГЇГ°Г®ГҐГЄГ¶ГЁГ®Г­Г­Г»ГҐ ГЇГ«Г Г§Г¬ГҐГ­Г­Г»ГҐ ГЅГ«ГІ Г®ГЇГЁГ±Г Г­ГЁГї Г¶ГҐГ­Г» Г°Г®Г±Г±ГЁГї ГіГЄГ°Г ГЁГ­Г  ГЄГЁГҐГў Г¬Г®Г±ГЄГўГ ');
 	prepare_data();
 }
 
@@ -85,17 +85,17 @@ require_once(CommonAccessPath.'common_lib.inc');
 require_once(CommonAccessPath.'m1_common_lib.inc');
 require_once(LibPath.'podberitv.inc');//
 
-//----------дополнительные стили----------------------
+//----------Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»ГҐ Г±ГІГЁГ«ГЁ----------------------
 @$additionalStyles.="<STYLE TYPE='text/css'>\n";
 $additionalStyles.="</STYLE>\n";
 
 
 //-----------------------------------------------------
 
-//counter(900);//-- инициализация номера старницы + подключение к базе
+//counter(900);//-- ГЁГ­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї Г­Г®Г¬ГҐГ°Г  Г±ГІГ Г°Г­ГЁГ¶Г» + ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ ГЄ ГЎГ Г§ГҐ
 connect2DB();
 
-getRequirements();//--получим все необходимые данные
+getRequirements();//--ГЇГ®Г«ГіГ·ГЁГ¬ ГўГ±ГҐ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г»ГҐ Г¤Г Г­Г­Г»ГҐ
 
 require_once(LibPath.'template.inc');
 
