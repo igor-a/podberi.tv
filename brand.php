@@ -1,5 +1,5 @@
 <?
-
+/* Страница бренда */
 
 function printMainPart(){
 	global $category_arr, $brand_arr;
