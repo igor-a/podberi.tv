@@ -1,5 +1,5 @@
 <?
-
+    /* װנויל */
 	header("Content-type: text/html; charset=windows-1251");
 	/* ?><script language='javascript' type='text/javascript'>document.write(navigator.appName);</script><? */
 	global $p4g_type_, $p4g_id_, $p4g_partner_, $p4g_name_, $p4g_id_site_;
